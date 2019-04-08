@@ -1,0 +1,13 @@
+﻿  Main.cpp
+  Process.cpp
+  Создание кода...
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Send в функции main
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Recv в функции main
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Gatherv в функции main
+Main.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Scatterv в функции main
+Process.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Comm_size в функции "public: __cdecl MPI::Process::Process(void)" (??0Process@MPI@@QEAA@XZ)
+Process.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Comm_rank в функции "public: __cdecl MPI::Process::Process(void)" (??0Process@MPI@@QEAA@XZ)
+Process.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Init в функции "public: __cdecl MPI::Process::Process(void)" (??0Process@MPI@@QEAA@XZ)
+Process.obj : error LNK2019: ссылка на неразрешенный внешний символ MPI_Finalize в функции "public: __cdecl MPI::Process::~Process(void)" (??1Process@MPI@@QEAA@XZ)
+C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x86\\msmpi.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\Alex\source\repos\MPI_1\x64\Debug\MPI_1.exe : fatal error LNK1120: неразрешенных внешних элементов: 8

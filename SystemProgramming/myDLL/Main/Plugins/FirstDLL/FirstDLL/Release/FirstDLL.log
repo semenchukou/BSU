@@ -1,0 +1,14 @@
+﻿  FirstDLL.c
+c:\users\alex\desktop\lab_5\main\main\plugins\firstdll\firstdll\firstdll.c(7): warning C4273: GetAuthor: несовместимая компоновка dll
+  c:\users\alex\desktop\lab_5\main\main\plugins\firstdll\firstdll\firstdll.h(12): note: см. предыдущее определение "GetAuthor"
+c:\users\alex\desktop\lab_5\main\main\plugins\firstdll\firstdll\firstdll.c(11): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\desktop\lab_5\main\main\plugins\firstdll\firstdll\firstdll.c(28): warning C4273: GetDescription: несовместимая компоновка dll
+  c:\users\alex\desktop\lab_5\main\main\plugins\firstdll\firstdll\firstdll.h(13): note: см. предыдущее определение "GetDescription"
+c:\users\alex\desktop\lab_5\main\main\plugins\firstdll\firstdll\firstdll.c(32): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\desktop\lab_5\main\main\plugins\firstdll\firstdll\firstdll.c(49): warning C4273: Execute: несовместимая компоновка dll
+  c:\users\alex\desktop\lab_5\main\main\plugins\firstdll\firstdll\firstdll.h(14): note: см. предыдущее определение "Execute"
+     Создается библиотека C:\Users\Alex\Desktop\lab_5\Main\Release\FirstDLL.lib и объект C:\Users\Alex\Desktop\lab_5\Main\Release\FirstDLL.exp
+  Создание кода
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  FirstDLL.vcxproj -> C:\Users\Alex\Desktop\lab_5\Main\Release\FirstDLL.dll

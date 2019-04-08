@@ -1,0 +1,11 @@
+﻿  SecondDLL.c
+d:\systemprogaramming\lab_5\main\main\plugins\seconddll\seconddll\seconddll.c(7): warning C4273: GetAuthor: несовместимая компоновка dll
+  d:\systemprogaramming\lab_5\main\main\plugins\seconddll\seconddll\seconddll.h(12): note: см. предыдущее определение "GetAuthor"
+d:\systemprogaramming\lab_5\main\main\plugins\seconddll\seconddll\seconddll.c(11): warning C4018: <: несоответствие типов со знаком и без знака
+d:\systemprogaramming\lab_5\main\main\plugins\seconddll\seconddll\seconddll.c(28): warning C4273: GetDescription: несовместимая компоновка dll
+  d:\systemprogaramming\lab_5\main\main\plugins\seconddll\seconddll\seconddll.h(13): note: см. предыдущее определение "GetDescription"
+d:\systemprogaramming\lab_5\main\main\plugins\seconddll\seconddll\seconddll.c(32): warning C4018: <: несоответствие типов со знаком и без знака
+d:\systemprogaramming\lab_5\main\main\plugins\seconddll\seconddll\seconddll.c(49): warning C4273: Execute: несовместимая компоновка dll
+  d:\systemprogaramming\lab_5\main\main\plugins\seconddll\seconddll\seconddll.h(14): note: см. предыдущее определение "Execute"
+     Создается библиотека D:\SystemProgaramming\lab_5\Main\Main\Plugins\SecondDLL\Debug\SecondDLL.lib и объект D:\SystemProgaramming\lab_5\Main\Main\Plugins\SecondDLL\Debug\SecondDLL.exp
+  SecondDLL.vcxproj -> D:\SystemProgaramming\lab_5\Main\Main\Plugins\SecondDLL\Debug\SecondDLL.dll

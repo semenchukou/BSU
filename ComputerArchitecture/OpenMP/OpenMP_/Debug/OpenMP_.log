@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (OpenMP_.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Task1.cpp
+c1xx : warning C4199: двухэтапный поиск имен не поддерживается для C++/CLI, C++/CX или OpenMP. Используйте /Zc:twoPhase-
+c:\users\alex\source\repos\openmp_\openmp_\task1.cpp(43): error C3036: min: недопустимая лексема оператора в предложении OpenMP "reduction"
+c:\users\alex\source\repos\openmp_\openmp_\task1.cpp(51): error C3036: max: недопустимая лексема оператора в предложении OpenMP "reduction"

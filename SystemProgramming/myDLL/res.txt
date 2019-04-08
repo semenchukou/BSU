@@ -1,0 +1,35 @@
+1028:
+NonParallel time: 4116732.700 micros
+ScalarMultiply time: 472401.535 micros
+VectorMultiply2 time: 244052.324 micros
+VectorMultiply3 time: 216929.266 micros
+VectorMultiply4 time: 150269.750 micros---min---
+VectorMultiply8 time: 152713.255 micros
+VectorMultiply16 time: 209510.563 micros
+
+257:
+NonParallel time: 72834.900 micros
+ScalarMultiply time: 6814.548 micros
+VectorMultiply2 time: 3626.244 micros
+VectorMultiply3 time: 2887.414 micros
+VectorMultiply4 time: 2292.241 micros
+VectorMultiply8 time: 2272.191 micros
+VectorMultiply16 time: 2260.016 micros---min---
+
+2056:
+ScalarMultiply time: 2657329.467 micros
+VectorMultiply2 time: 2661453.003 micros
+VectorMultiply3 time: 2239196.688 micros
+VectorMultiply4 time: 1734171.174 micros
+VectorMultiply8 time: 1702594.374 micros
+VectorMultiply16 time: 1581491.860 micros---min---
+NonParallel time: 40027187.200 micros
+
+65:
+ScalarMultiply time: 112.574 micros
+VectorMultiply2 time: 77.342 micros
+VectorMultiply3 time: 61.133 micros
+VectorMultiply4 time: 53.866 micros
+VectorMultiply8 time: 52.733 micros
+VectorMultiply16 time: 52.600 micros---min---
+NonParallel time: 1006.500 micros

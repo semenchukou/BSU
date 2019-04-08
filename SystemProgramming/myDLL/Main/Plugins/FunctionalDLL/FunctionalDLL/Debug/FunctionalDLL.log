@@ -1,0 +1,5 @@
+﻿  FunctionalDLL.c
+d:\systemprogaramming\lab_5\main\main\plugins\functionaldll\functionaldll\functionaldll.c(6): warning C4273: Dialog: несовместимая компоновка dll
+  d:\systemprogaramming\lab_5\main\main\plugins\functionaldll\functionaldll\functionaldll.h(12): note: см. предыдущее определение "Dialog"
+     ╤ючфрхЄё  сшсышюЄхър D:\SystemProgaramming\lab_5\Main\Main\Plugins\FunctionalDLL\Debug\FunctionalDLL.lib ш юс·хъЄ D:\SystemProgaramming\lab_5\Main\Main\Plugins\FunctionalDLL\Debug\FunctionalDLL.exp
+  FunctionalDLL.vcxproj -> D:\SystemProgaramming\lab_5\Main\Main\Plugins\FunctionalDLL\Debug\FunctionalDLL.dll

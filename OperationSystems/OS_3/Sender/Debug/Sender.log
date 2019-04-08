@@ -1,0 +1,4 @@
+﻿  Sender.cpp
+c:\users\alex\source\repos\os_3\sender\sender.cpp(68): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\alex\source\repos\os_3\sender\sender.cpp(94): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Sender.vcxproj -> C:\Users\Alex\source\repos\OS_3\Debug\Sender.exe

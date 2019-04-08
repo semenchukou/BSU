@@ -1,0 +1,5 @@
+﻿  Main.c
+d:\systemprogaramming\lab_5\main\main\main.c(111): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+d:\systemprogaramming\lab_5\main\main\main.c(88): warning C4101: str: неиспользованная локальная переменная
+d:\systemprogaramming\lab_5\main\main\main.c(45): warning C4715: PrintListOfModules: значение возвращается не при всех путях выполнения
+  Main.vcxproj -> D:\SystemProgaramming\lab_5\Main\Debug\Main.exe

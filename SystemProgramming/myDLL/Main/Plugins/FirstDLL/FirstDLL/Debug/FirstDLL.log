@@ -1,0 +1,9 @@
+﻿  FirstDLL.c
+d:\systemprogaramming\lab_5\firstdll\firstdll\firstdll.c(5): warning C4273: GetAuthor: несовместимая компоновка dll
+  d:\systemprogaramming\lab_5\firstdll\firstdll\firstdll.h(12): note: см. предыдущее определение "GetAuthor"
+d:\systemprogaramming\lab_5\firstdll\firstdll\firstdll.c(10): warning C4273: GetDescription: несовместимая компоновка dll
+  d:\systemprogaramming\lab_5\firstdll\firstdll\firstdll.h(13): note: см. предыдущее определение "GetDescription"
+d:\systemprogaramming\lab_5\firstdll\firstdll\firstdll.c(15): warning C4273: Execute: несовместимая компоновка dll
+  d:\systemprogaramming\lab_5\firstdll\firstdll\firstdll.h(14): note: см. предыдущее определение "Execute"
+     Создается библиотека D:\SystemProgaramming\lab_5\FirstDLL\Debug\FirstDLL.lib и объект D:\SystemProgaramming\lab_5\FirstDLL\Debug\FirstDLL.exp
+  FirstDLL.vcxproj -> D:\SystemProgaramming\lab_5\FirstDLL\Debug\FirstDLL.dll

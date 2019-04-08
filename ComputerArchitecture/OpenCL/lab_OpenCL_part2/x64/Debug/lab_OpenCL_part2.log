@@ -1,0 +1,14 @@
+﻿  KernelCodeGenerator.cpp
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(46): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(49): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(59): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(62): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(71): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(74): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(84): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(88): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(97): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(101): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(108): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\alex\source\repos\lab_opencl\lab_opencl_part2\kernelcodegenerator.cpp(113): warning C4018: <: несоответствие типов со знаком и без знака
+  lab_OpenCL_part2.vcxproj -> C:\Users\Alex\source\repos\lab_OpenCL\x64\Debug\lab_OpenCL_part2.exe

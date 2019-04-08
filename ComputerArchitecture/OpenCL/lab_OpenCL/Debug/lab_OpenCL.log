@@ -1,0 +1,46 @@
+﻿  DeviceEx.cpp
+  KernelEx.cpp
+  Main.cpp
+c:\users\user\documents\visual studio 2017\projects\lab_opencl\lab_opencl\main.cpp(64): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\user\documents\visual studio 2017\projects\lab_opencl\lab_opencl\main.cpp(65): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  PlatformEx.cpp
+  Generating Code...
+DeviceEx.obj : error LNK2019: unresolved external symbol _clGetPlatformInfo@20 referenced in function "unsigned int __cdecl cl::detail::getPlatformVersion(struct _cl_platform_id *)" (?getPlatformVersion@detail@cl@@YAIPAU_cl_platform_id@@@Z)
+KernelEx.obj : error LNK2001: unresolved external symbol _clGetPlatformInfo@20
+PlatformEx.obj : error LNK2001: unresolved external symbol _clGetPlatformInfo@20
+DeviceEx.obj : error LNK2019: unresolved external symbol _clGetDeviceInfo@20 referenced in function "public: int __thiscall cl::Device::getInfo<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > *)const " (??$getInfo@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Device@cl@@QBEHIPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+KernelEx.obj : error LNK2001: unresolved external symbol _clGetDeviceInfo@20
+PlatformEx.obj : error LNK2001: unresolved external symbol _clGetDeviceInfo@20
+DeviceEx.obj : error LNK2019: unresolved external symbol _clRetainDevice@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_device_id *>::retain(struct _cl_device_id *)" (?retain@?$ReferenceHandler@PAU_cl_device_id@@@detail@cl@@SAHPAU_cl_device_id@@@Z)
+KernelEx.obj : error LNK2001: unresolved external symbol _clRetainDevice@4
+DeviceEx.obj : error LNK2019: unresolved external symbol _clReleaseDevice@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_device_id *>::release(struct _cl_device_id *)" (?release@?$ReferenceHandler@PAU_cl_device_id@@@detail@cl@@SAHPAU_cl_device_id@@@Z)
+KernelEx.obj : error LNK2001: unresolved external symbol _clReleaseDevice@4
+Main.obj : error LNK2001: unresolved external symbol _clReleaseDevice@4
+PlatformEx.obj : error LNK2001: unresolved external symbol _clReleaseDevice@4
+DeviceEx.obj : error LNK2019: unresolved external symbol _clCreateContext@24 referenced in function "public: __thiscall cl::Context::Context(class std::vector<class cl::Device,class std::allocator<class cl::Device> > const &,int *,void (__stdcall*)(char const *,void const *,unsigned int,void *),void *,int *)" (??0Context@cl@@QAE@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@PAHP6GXPBDPBXIPAX@Z41@Z)
+DeviceEx.obj : error LNK2019: unresolved external symbol _clReleaseContext@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_context *>::release(struct _cl_context *)" (?release@?$ReferenceHandler@PAU_cl_context@@@detail@cl@@SAHPAU_cl_context@@@Z)
+KernelEx.obj : error LNK2001: unresolved external symbol _clReleaseContext@4
+Main.obj : error LNK2001: unresolved external symbol _clReleaseContext@4
+PlatformEx.obj : error LNK2001: unresolved external symbol _clReleaseContext@4
+DeviceEx.obj : error LNK2019: unresolved external symbol _clReleaseCommandQueue@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_command_queue *>::release(struct _cl_command_queue *)" (?release@?$ReferenceHandler@PAU_cl_command_queue@@@detail@cl@@SAHPAU_cl_command_queue@@@Z)
+KernelEx.obj : error LNK2001: unresolved external symbol _clReleaseCommandQueue@4
+Main.obj : error LNK2001: unresolved external symbol _clReleaseCommandQueue@4
+PlatformEx.obj : error LNK2001: unresolved external symbol _clReleaseCommandQueue@4
+KernelEx.obj : error LNK2019: unresolved external symbol _clCreateProgramWithSource@20 referenced in function "public: __thiscall cl::Program::Program(class cl::Context const &,class std::vector<struct std::pair<char const *,unsigned int>,class std::allocator<struct std::pair<char const *,unsigned int> > > const &,int *)" (??0Program@cl@@QAE@ABVContext@1@ABV?$vector@U?$pair@PBDI@std@@V?$allocator@U?$pair@PBDI@std@@@2@@std@@PAH@Z)
+KernelEx.obj : error LNK2019: unresolved external symbol _clReleaseProgram@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_program *>::release(struct _cl_program *)" (?release@?$ReferenceHandler@PAU_cl_program@@@detail@cl@@SAHPAU_cl_program@@@Z)
+KernelEx.obj : error LNK2019: unresolved external symbol _clBuildProgram@24 referenced in function "public: int __thiscall cl::Program::build(class std::vector<class cl::Device,class std::allocator<class cl::Device> > const &,char const *,void (__stdcall*)(struct _cl_program *,void *),void *)const " (?build@Program@cl@@QBEHABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@PBDP6GXPAU_cl_program@@PAX@Z3@Z)
+KernelEx.obj : error LNK2019: unresolved external symbol _clCreateKernel@12 referenced in function "public: __thiscall cl::Kernel::Kernel(class cl::Program const &,char const *,int *)" (??0Kernel@cl@@QAE@ABVProgram@1@PBDPAH@Z)
+KernelEx.obj : error LNK2019: unresolved external symbol _clReleaseKernel@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_kernel *>::release(struct _cl_kernel *)" (?release@?$ReferenceHandler@PAU_cl_kernel@@@detail@cl@@SAHPAU_cl_kernel@@@Z)
+Main.obj : error LNK2001: unresolved external symbol _clReleaseKernel@4
+Main.obj : error LNK2019: unresolved external symbol _clCreateCommandQueue@20 referenced in function "public: __thiscall cl::CommandQueue::CommandQueue(class cl::Context const &,class cl::Device const &,unsigned __int64,int *)" (??0CommandQueue@cl@@QAE@ABVContext@1@ABVDevice@1@_KPAH@Z)
+Main.obj : error LNK2019: unresolved external symbol _clCreateBuffer@24 referenced in function "public: __thiscall cl::Buffer::Buffer(class cl::Context const &,unsigned __int64,unsigned int,void *,int *)" (??0Buffer@cl@@QAE@ABVContext@1@_KIPAXPAH@Z)
+Main.obj : error LNK2019: unresolved external symbol _clReleaseMemObject@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_mem *>::release(struct _cl_mem *)" (?release@?$ReferenceHandler@PAU_cl_mem@@@detail@cl@@SAHPAU_cl_mem@@@Z)
+Main.obj : error LNK2019: unresolved external symbol _clSetKernelArg@16 referenced in function "public: int __thiscall cl::Kernel::setArg<int>(unsigned int,int const &)" (??$setArg@H@Kernel@cl@@QAEHIABH@Z)
+Main.obj : error LNK2019: unresolved external symbol _clReleaseEvent@4 referenced in function "public: static int __cdecl cl::detail::ReferenceHandler<struct _cl_event *>::release(struct _cl_event *)" (?release@?$ReferenceHandler@PAU_cl_event@@@detail@cl@@SAHPAU_cl_event@@@Z)
+Main.obj : error LNK2019: unresolved external symbol _clFinish@4 referenced in function "public: int __thiscall cl::CommandQueue::finish(void)const " (?finish@CommandQueue@cl@@QBEHXZ)
+Main.obj : error LNK2019: unresolved external symbol _clEnqueueReadBuffer@36 referenced in function "public: int __thiscall cl::CommandQueue::enqueueReadBuffer(class cl::Buffer const &,unsigned int,unsigned int,unsigned int,void *,class std::vector<class cl::Event,class std::allocator<class cl::Event> > const *,class cl::Event *)const " (?enqueueReadBuffer@CommandQueue@cl@@QBEHABVBuffer@2@IIIPAXPBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@std@@PAVEvent@2@@Z)
+Main.obj : error LNK2019: unresolved external symbol _clEnqueueNDRangeKernel@36 referenced in function "public: int __thiscall cl::CommandQueue::enqueueNDRangeKernel(class cl::Kernel const &,class cl::NDRange const &,class cl::NDRange const &,class cl::NDRange const &,class std::vector<class cl::Event,class std::allocator<class cl::Event> > const *,class cl::Event *)const " (?enqueueNDRangeKernel@CommandQueue@cl@@QBEHABVKernel@2@ABVNDRange@2@11PBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@std@@PAVEvent@2@@Z)
+PlatformEx.obj : error LNK2019: unresolved external symbol _clGetPlatformIDs@12 referenced in function "public: static int __cdecl cl::Platform::get(class std::vector<class cl::Platform,class std::allocator<class cl::Platform> > *)" (?get@Platform@cl@@SAHPAV?$vector@VPlatform@cl@@V?$allocator@VPlatform@cl@@@std@@@std@@@Z)
+PlatformEx.obj : error LNK2019: unresolved external symbol _clGetDeviceIDs@24 referenced in function "public: int __thiscall cl::Platform::getDevices(unsigned __int64,class std::vector<class cl::Device,class std::allocator<class cl::Device> > *)const " (?getDevices@Platform@cl@@QBEH_KPAV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@@Z)
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\lib\x64\OpenCL.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\USER\Documents\Visual Studio 2017\Projects\lab_OpenCL\Debug\lab_OpenCL.exe : fatal error LNK1120: 22 unresolved externals

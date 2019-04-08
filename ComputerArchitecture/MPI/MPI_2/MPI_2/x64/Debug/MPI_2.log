@@ -1,0 +1,5 @@
+﻿  Main.cpp
+c:\users\alex\source\repos\mpi_2\mpi_2\process.h(2): fatal error C1083: Не удается открыть файл включение: mpi.h: No such file or directory,
+  Process.cpp
+c:\users\alex\source\repos\mpi_2\mpi_2\process.h(2): fatal error C1083: Не удается открыть файл включение: mpi.h: No such file or directory,
+  Создание кода...

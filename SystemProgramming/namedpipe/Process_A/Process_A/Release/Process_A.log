@@ -1,0 +1,9 @@
+﻿  Process_A.c
+c:\users\alex\desktop\cp\lab_3\process_a\process_a\process_a.c(44): warning C4133: функция: несовместимые типы - из "LPCWSTR" в "LPCSTR"
+c:\users\alex\desktop\cp\lab_3\process_a\process_a\process_a.c(43): warning C4133: инициализация: несовместимые типы - из "char [21]" в "LPCWSTR"
+  Создание кода
+  5 of 6 functions (83.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Process_A.vcxproj -> C:\Users\Alex\Desktop\cp\lab_3\Process_A\Release\Process_A.exe

@@ -1,0 +1,4 @@
+﻿  Process_B.c
+d:\systemprogaramming\lab_3\process_b\process_b\process_b.c(7): warning C4133: функция: несовместимые типы - из "LPCWSTR" в "LPCSTR"
+d:\systemprogaramming\lab_3\process_b\process_b\process_b.c(4): warning C4133: инициализация: несовместимые типы - из "char [21]" в "LPCWSTR"
+  Process_B.vcxproj -> D:\SystemProgaramming\lab_3\Process_B\Debug\Process_B.exe
