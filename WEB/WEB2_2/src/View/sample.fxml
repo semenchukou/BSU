@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="491.0" prefWidth="951.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="470.0" prefWidth="969.0">
+         <children>
+            <TextArea fx:id="result_text" layoutX="420.0" layoutY="230.0" prefHeight="214.0" prefWidth="500.0" />
+            <TextField id="Place name" fx:id="place_name" layoutX="161.0" layoutY="46.0" promptText="Place name" />
+            <TextField id="Days amount" fx:id="days_amount" layoutX="161.0" layoutY="90.0" promptText="Days amount" />
+            <TextField id="Price" fx:id="price" layoutX="161.0" layoutY="134.0" promptText="Price" />
+            <TextField id="People amount" fx:id="people_amount" layoutX="161.0" layoutY="180.0" promptText="People amount" />
+            <TextField id="Food" fx:id="food" layoutX="161.0" layoutY="225.0" promptText="Food" />
+            <TextField id="Transport" fx:id="transport" layoutX="161.0" layoutY="269.0" promptText="Transport" />
+            <TextField id="Additional" fx:id="additional" layoutX="161.0" layoutY="310.0" />
+            <RadioButton fx:id="cruiseRB" layoutX="27.0" layoutY="51.0" mnemonicParsing="false" onAction="#cruise_selected" text="Cruise">
+               <toggleGroup>
+                  <ToggleGroup fx:id="Voucher" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="excursionRB" layoutX="27.0" layoutY="95.0" mnemonicParsing="false" onAction="#excursion_selected" text="Excursion" toggleGroup="$Voucher" />
+            <RadioButton fx:id="shoppingRB" layoutX="27.0" layoutY="139.0" mnemonicParsing="false" onAction="#shopping_selected" text="Shopping" toggleGroup="$Voucher" />
+            <RadioButton fx:id="therapy" layoutX="27.0" layoutY="185.0" mnemonicParsing="false" onAction="#therapy_selected" text="Therapy" toggleGroup="$Voucher" />
+            <RadioButton fx:id="vacationRB" layoutX="27.0" layoutY="225.0" mnemonicParsing="false" onAction="#vacation_selected" text="Vacation" toggleGroup="$Voucher" />
+            <Label layoutX="27.0" layoutY="14.0" prefHeight="21.0" prefWidth="319.0" text="Add new Voucher to the database:">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="priceButton" layoutX="411.0" layoutY="46.0" mnemonicParsing="false" onAction="#price_sort" prefHeight="31.0" prefWidth="165.0" text="Price" />
+            <Button fx:id="peopleAmountButton" layoutX="411.0" layoutY="90.0" mnemonicParsing="false" onAction="#people_amount_sort" prefHeight="31.0" prefWidth="165.0" text="People amount" />
+            <Button fx:id="daysAmountButton" layoutX="411.0" layoutY="134.0" mnemonicParsing="false" onAction="#days_amount_sort" prefHeight="31.0" prefWidth="165.0" text="Days amount" />
+            <Label layoutX="411.0" layoutY="17.0" prefHeight="21.0" prefWidth="165.0" text="Sort by:">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="addButton" layoutX="40.0" layoutY="380.0" mnemonicParsing="false" onAction="#add_pressed" prefHeight="31.0" prefWidth="308.0" text="ADD" />
+            <Label layoutX="670.0" layoutY="17.0" text="Get  vouchers:">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="days_amount_to_get" layoutX="812.0" layoutY="57.0" prefHeight="31.0" prefWidth="118.0" visible="false" />
+            <RadioButton fx:id="daysAmountRB" layoutX="672.0" layoutY="62.0" mnemonicParsing="false" onAction="#days_amount_set" text="Days amount" />
+            <RadioButton fx:id="foodRB" layoutX="672.0" layoutY="101.0" mnemonicParsing="false" onAction="#food_set" text="Food" />
+            <RadioButton fx:id="transportRB" layoutX="670.0" layoutY="139.0" mnemonicParsing="false" onAction="#transport_set" text="Transport" />
+            <TextField fx:id="food_to_get" layoutX="812.0" layoutY="96.0" prefHeight="31.0" prefWidth="118.0" visible="false" />
+            <TextField fx:id="transport_to_get" layoutX="812.0" layoutY="135.0" prefHeight="31.0" prefWidth="118.0" visible="false" />
+            <Button fx:id="getButton" layoutX="670.0" layoutY="180.0" mnemonicParsing="false" onAction="#get_vouchers" prefHeight="31.0" prefWidth="262.0" text="GET" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
