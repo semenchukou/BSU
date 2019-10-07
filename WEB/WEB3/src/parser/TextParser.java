@@ -25,7 +25,7 @@ public class TextParser {
      * @param textString text
      * @return return Text object
      */
-    public Text splitText(String textString) {
+    public Text splitText(String textString)    {
         Text text = new Text();
         ArrayList<TextUnit> result;
         try {

@@ -40,14 +40,14 @@ public class Word extends TextUnit {
         return text;
     }
 
-    public void RemoveNext() {
+    public void removeNext() {
         char first = text.charAt(0);
         text = text.replaceAll(Character.toString(first).toLowerCase(), "");
         text = text.replaceAll(Character.toString(first).toUpperCase(), "");
         text = first + text;
     }
 
-    public void RemovePrevious() {
+    public void removePrevious() {
         char last = text.charAt(text.length() - 1);
         text = text.replaceAll(Character.toString(last).toLowerCase(), "");
         text = text.replaceAll(Character.toString(last).toUpperCase(), "");

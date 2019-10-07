@@ -41,7 +41,7 @@ public class Main {
             System.out.println();
 
             System.out.print(ANSI_GREEN + "------" + (LocaleHelper.getLocalizedString(DELETE_NEXT)) + "------" + ANSI_RESET);
-            System.out.println(controller.DeleteNext(text).toString());
+            System.out.println(controller.deleteNext(text).toString());
             System.out.println();
 
         } catch (ArrayIndexOutOfBoundsException ex) {

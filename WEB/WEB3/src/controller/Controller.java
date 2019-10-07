@@ -1,7 +1,7 @@
 package controller;
 
-import localization.LocaleHelper;
 import model.Text;
+import model.text_unit.text.TextUnit;
 import parser.TextParser;
 
 import java.io.IOException;
@@ -56,7 +56,7 @@ public class Controller {
      * @param text text
      * @return list of words
      */
-    public List sortWords(Text text) {
+    public List<TextUnit> sortWords(Text text) {
         List sorted;
         try {
             sorted = text.sortWordsAccordingToAmountOfEntries();
@@ -66,15 +66,15 @@ public class Controller {
         return sorted;
     }
 
-    public Text DeleteNext(Text text) {
+    public Text deleteNext(Text text) {
         Text temp = text;
-        temp.DeleteCharacters(true);
+        temp.deleteCharacters(true);
         return temp;
     }
 
-    public Text DeletePrevious(Text text) {
+    public Text deletePrevious(Text text) {
         Text temp = text;
-        temp.DeleteCharacters(false);
+        temp.deleteCharacters(false);
         return temp;
     }
 }

@@ -141,15 +141,15 @@ public class Text extends TextUnit {
         return list;
     }
 
-    public void DeleteCharacters(boolean next) {
+    public void deleteCharacters(boolean next) {
         for(TextUnit textUnit : text) {
             if(textUnit.getClass().equals(Sentence.class)) {
                 for(TextUnit word : ((Sentence)textUnit).sentence) {
                     if(word.getClass().equals(Word.class)) {
                         if(next) {
-                            ((Word)word).RemoveNext();
+                            ((Word)word).removeNext();
                         } else {
-                            ((Word)word).RemovePrevious();
+                            ((Word)word).removePrevious();
                         }
                     }
                 }
