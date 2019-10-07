@@ -1,6 +1,5 @@
 package parser;
 
-import model.exception.InvalidParsingException;
 import model.text_unit.text.TextUnit;
 import model.text_unit.text.part.PunctuationMark;
 import model.text_unit.text.part.PunctuationMarkTypeEnum;
@@ -21,7 +20,7 @@ public class WordTextParser {
      * @param textUnits some textUnits
      * @return parsed text units
      */
-    public ArrayList<TextUnit> split(ArrayList<TextUnit> textUnits) throws InvalidParsingException {
+    public ArrayList<TextUnit> split(ArrayList<TextUnit> textUnits) {
         ArrayList<TextUnit> result = new ArrayList<>();
         for (TextUnit textUnit: textUnits) {
             if (textUnit.getClass() == Sentence.class){
@@ -49,8 +48,6 @@ public class WordTextParser {
                 result.add(textUnit);
             }
         }
-        if (result.isEmpty())
-            throw new InvalidParsingException("There is no words and punctuation marks");
 
         return result;
     }

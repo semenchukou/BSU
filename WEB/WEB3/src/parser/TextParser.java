@@ -1,11 +1,7 @@
 package parser;
 
 import model.Text;
-import model.exception.InvalidParsingException;
-import model.text_unit.code.CodeBlock;
 import model.text_unit.text.TextUnit;
-import model.text_unit.text.part.Paragraph;
-import model.text_unit.text.part.Sentence;
 
 import java.util.ArrayList;
 
@@ -29,7 +25,7 @@ public class TextParser {
      * @param textString text
      * @return return Text object
      */
-    public Text splitText(String textString) throws InvalidParsingException {
+    public Text splitText(String textString) {
         Text text = new Text();
         ArrayList<TextUnit> result;
         try {

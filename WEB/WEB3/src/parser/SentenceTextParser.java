@@ -1,6 +1,5 @@
 package parser;
 
-import model.exception.InvalidParsingException;
 import model.text_unit.code.CodeBlock;
 import model.text_unit.code.CodeLine;
 import model.text_unit.text.TextUnit;
@@ -25,7 +24,7 @@ public class SentenceTextParser {
         nextSplitter = new WordTextParser();
     }
 
-    public ArrayList<TextUnit> split(ArrayList<TextUnit> textUnits) throws InvalidParsingException {
+    public ArrayList<TextUnit> split(ArrayList<TextUnit> textUnits) {
         ArrayList<TextUnit> result = new ArrayList<>();
         for (TextUnit textUnit : textUnits) {
             if (textUnit.getClass() == CodeBlock.class) {
@@ -50,18 +49,8 @@ public class SentenceTextParser {
                 }
             }
         }
-
-        if (result.isEmpty())
-            throw new InvalidParsingException("There is no sentence or code lines");
         ArrayList<TextUnit> splited;
-
-        try {
-            splited = nextSplitter.split(result);
-        }
-        catch (Exception e) {
-            throw e;
-        }
-
+        splited = nextSplitter.split(result);
         return splited;
     }
 

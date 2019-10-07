@@ -3,8 +3,8 @@ package view;
 import controller.Controller;
 import localization.LocaleHelper;
 import model.Text;
-import model.exception.FileException;
-import model.exception.InvalidParsingException;
+
+import java.io.IOException;
 
 import static localization.LocaleHelper.*;
 
@@ -44,9 +44,11 @@ public class Main {
             System.out.println(controller.DeleteNext(text).toString());
             System.out.println();
 
-        } catch (FileException | InvalidParsingException | ArrayIndexOutOfBoundsException ex) {
+        } catch (ArrayIndexOutOfBoundsException ex) {
             System.out.println();
             ex.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

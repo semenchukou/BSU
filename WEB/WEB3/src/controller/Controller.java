@@ -2,8 +2,6 @@ package controller;
 
 import localization.LocaleHelper;
 import model.Text;
-import model.exception.FileException;
-import model.exception.InvalidParsingException;
 import parser.TextParser;
 
 import java.io.IOException;
@@ -25,14 +23,13 @@ public class Controller {
      *
      * @param path path to file
      * @return text string
-     * @throws FileException if no file
      */
-    public String loadText(String path) throws FileException {
+    public String loadText(String path) throws IOException {
         try {
             byte[] encoded = Files.readAllBytes(Paths.get(path));
             textString = new String(encoded, Charset.forName("windows-1251"));
         } catch (IOException e) {
-            throw new FileException(LocaleHelper.getLocalizedString(LocaleHelper.INVALID_ARGS), e);
+            throw e;
         }
         return textString;
     }
@@ -42,7 +39,7 @@ public class Controller {
      *
      * @return text object
      */
-    public Text parseTextStringToText() throws InvalidParsingException {
+    public Text parseTextStringToText(){
         TextParser textParser = new TextParser();
         Text parsedText;
         try {
